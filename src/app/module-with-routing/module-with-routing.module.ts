@@ -18,6 +18,9 @@ import { Test3Component } from './test3/test3.component';
     CommonModule,
     ModuleWithRoutingRoutingModule,
     SharedModule
+  ],
+  exports: [
+    TestComponent
   ]
 })
 export class ModuleWithRoutingModule { }
